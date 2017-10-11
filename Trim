@@ -1,0 +1,4 @@
+function trim(str){
+	RegEx=/\s/g;
+	return str.replace(RegEx,"");
+};
